@@ -95,8 +95,10 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
 
     if (fuelFlag && cargoFlag)
     {
-        launchStatusCheck.style.visibility = "hidden";
-        list.style.visibility = "hidden";
+        launchStatus.innerHTML = "Shuttle ready for launch";
+        launchStatus.style.color = "green";
+        // launchStatusCheck.style.visibility = "hidden";
+        list.style.visibility = "visible";
         return true;
     }
     
