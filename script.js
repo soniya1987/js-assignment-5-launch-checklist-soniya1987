@@ -26,8 +26,5 @@ window.addEventListener("load", function() {
        let randomPlanet = pickPlanet(listedPlanets);
        addDestinationInfo(document, randomPlanet.name, randomPlanet.diameter, randomPlanet.star, randomPlanet.distance, randomPlanet.moons, randomPlanet.image);
    })
-
-   
-
 });
 
